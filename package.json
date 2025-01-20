@@ -4,22 +4,23 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Kraizer16/ApiProject.git"
+    "url": "git+https://github.com/UmaSahni/apiProject.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Kraizer16/ApiProject/issues.git"
+    "url": "https://github.com/UmaSahni/apiProject/issues"
   },
-  "homepage": "https://github.com/Kraizer16/ApiProject#readme.git",
+  "homepage": "https://github.com/UmaSahni/apiProject#readme",
   "dependencies": {
     "cors": "^2.8.5",
     "json-serve": "^0.1.0",
-    "json-server": "^1.0.0-beta.3"
+    "json-server": "^0.17.1"
   }
 }
